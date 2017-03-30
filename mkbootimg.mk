@@ -16,7 +16,7 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(strip $(BOARD_KERNEL_SEPARATED_DT)),true)
 ifneq ($(strip $(BOARD_KERNEL_PREBUILT_DT)),true)
-include device/qcom/common/dtbtool/Android.mk
+#include device/qcom/common/dtbtool/Android.mk
 
 ifeq ($(strip $(TARGET_CUSTOM_DTBTOOL)),)
 DTBTOOL_NAME := dtbToolCM
