@@ -1,7 +1,7 @@
 DEVICE_TREE := device/samsung/lentislte
 
 CM_PLATFORM_SDK_VERSION := 7	# Required for libf2fs.so
-TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw	# Lineage
+#TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw	# Lineage
 override TARGET_OUT_VENDOR_SHARED_LIBRARIES = $(TARGET_OUT_SHARED_LIBRARIES)
 
 # Bootloader
