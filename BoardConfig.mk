@@ -83,3 +83,6 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 
 # Debug flags
 TWRP_INCLUDE_LOGCAT := true
+
+# Oreo
+TW_NO_LEGACY_PROPS := true
